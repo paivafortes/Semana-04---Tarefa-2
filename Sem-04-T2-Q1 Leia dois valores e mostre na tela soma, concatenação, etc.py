@@ -1,0 +1,21 @@
+#1° deve receber o valor da variável
+x=(input())
+y=(input())
+#2° soma das variaveis x e y transformadas em numeros reais
+s= float(x) + float(y)
+
+c=float(x)
+d= int(y)
+m=float(x) * float(y)
+dn=float(x)/float(y)
+di=float(x)//float(y)
+ex=float(x)**float(y)
+r=float(x)%float(y)
+print(s)
+print(f'{c}{d}')
+print(m)
+print(f'{c}'*d)
+print(dn)
+print(di)
+print(ex)
+print(r)
